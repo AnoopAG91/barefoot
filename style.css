@@ -704,6 +704,12 @@ button.navbar-toggler.collapsed {
     .home-banner .right-icon svg, .left-icon svg {
         font-size: 15px;
     }
+
+    .home-banner .carousel-item img {
+        height: 100%;
+        min-height: 40vh;
+    }
+    
     .home-projects .title p {
         font-size: 15px;
         padding: 10px 0 0 0;
