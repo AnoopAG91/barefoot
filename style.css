@@ -301,6 +301,7 @@ button.navbar-toggler.collapsed {
 .home-explore .image img {
     width: 100%;
     object-fit: cover;
+    transition: 0.3S ease-in-out;
 }
 .home-explore .content h4 {
     font-size: 25px;
@@ -323,6 +324,11 @@ button.navbar-toggler.collapsed {
 .home-explore .image {
     position: relative;
     overflow: hidden;
+    transition: 0.3S ease-in-out;
+}
+.home-explore .image:hover img {
+    transform: scale(1.02) ;
+    transition: 0.3S ease-in-out;
 }
 
 .home-explore .image::after {
@@ -346,6 +352,7 @@ button.navbar-toggler.collapsed {
 
 .home-explore .image:hover::after {
     bottom: 0;
+    transition: 0.3s ease-in-out;
 }
 
 
